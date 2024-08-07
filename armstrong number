@@ -1,0 +1,3 @@
+ k = len(str(n))
+        total = sum(int(digit) ** k for digit in str(n))
+        return "true" if total == n else "false"
